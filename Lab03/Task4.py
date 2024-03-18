@@ -1,6 +1,6 @@
 import math
 class SquareGenerator:
-    def generate_squares(SquareGenerator, start, end):
+    def generate_squares(self, start, end):
         list = [x * x for x in range(end + 1) if x > start - 1]
         return list
 
