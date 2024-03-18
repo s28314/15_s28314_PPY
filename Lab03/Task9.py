@@ -13,8 +13,8 @@ class CubicGenerator(SquareGenerator):
         list = [x * x for x in range(end + 1) if x > start - 1]
         return list
 
-squaregenerator = SquareGenerator();
+squaregenerator = SquareGenerator()
 print(squaregenerator.generate_squares(1,10))
-cubicgenerator = CubicGenerator();
+cubicgenerator = CubicGenerator()
 print(cubicgenerator.generate_cubes(1,10))
 print(cubicgenerator.generate_squares(20,10))
